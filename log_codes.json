@@ -1,0 +1,2738 @@
+{
+    "zl.10.api.10": {
+        "chat-type": "zalo",
+        "feature": "connect-chat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.10.api.11": {
+        "chat-type": "zalo",
+        "feature": "connect-chat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.10.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "connect-chat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.10.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "connect-chat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.10.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "connect-chat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.10.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "connect-chat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.10.whk.10": {
+        "chat-type": "zalo",
+        "feature": "connect-chat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.10.whk.11": {
+        "chat-type": "zalo",
+        "feature": "connect-chat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.11.api.10": {
+        "chat-type": "zalo",
+        "feature": "config-fchat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.11.api.11": {
+        "chat-type": "zalo",
+        "feature": "config-fchat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.11.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "config-fchat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.11.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "config-fchat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.11.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "config-fchat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.11.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "config-fchat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.11.whk.10": {
+        "chat-type": "zalo",
+        "feature": "config-fchat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.11.whk.11": {
+        "chat-type": "zalo",
+        "feature": "config-fchat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.12.api.10": {
+        "chat-type": "zalo",
+        "feature": "handle-webhook-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.12.api.11": {
+        "chat-type": "zalo",
+        "feature": "handle-webhook-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.12.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "handle-webhook-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.12.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "handle-webhook-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.12.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "handle-webhook-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.12.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "handle-webhook-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.12.whk.10": {
+        "chat-type": "zalo",
+        "feature": "handle-webhook-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.12.whk.11": {
+        "chat-type": "zalo",
+        "feature": "handle-webhook-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.13.api.10": {
+        "chat-type": "zalo",
+        "feature": "send-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.13.api.11": {
+        "chat-type": "zalo",
+        "feature": "send-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.13.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "send-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.13.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "send-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.13.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "send-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.13.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "send-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.13.whk.10": {
+        "chat-type": "zalo",
+        "feature": "send-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.13.whk.11": {
+        "chat-type": "zalo",
+        "feature": "send-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.14.api.10": {
+        "chat-type": "zalo",
+        "feature": "seen-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.14.api.11": {
+        "chat-type": "zalo",
+        "feature": "seen-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.14.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "seen-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.14.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "seen-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.14.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "seen-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.14.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "seen-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.14.whk.10": {
+        "chat-type": "zalo",
+        "feature": "seen-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.14.whk.11": {
+        "chat-type": "zalo",
+        "feature": "seen-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.15.api.10": {
+        "chat-type": "zalo",
+        "feature": "message-reaction",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.15.api.11": {
+        "chat-type": "zalo",
+        "feature": "message-reaction",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.15.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "message-reaction",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.15.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "message-reaction",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.15.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "message-reaction",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.15.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "message-reaction",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.15.whk.10": {
+        "chat-type": "zalo",
+        "feature": "message-reaction",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.15.whk.11": {
+        "chat-type": "zalo",
+        "feature": "message-reaction",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.16.api.10": {
+        "chat-type": "zalo",
+        "feature": "sync-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.16.api.11": {
+        "chat-type": "zalo",
+        "feature": "sync-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.16.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "sync-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.16.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "sync-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.16.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "sync-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.16.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "sync-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.16.whk.10": {
+        "chat-type": "zalo",
+        "feature": "sync-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.16.whk.11": {
+        "chat-type": "zalo",
+        "feature": "sync-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.17.api.10": {
+        "chat-type": "zalo",
+        "feature": "config-chat-distribution",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.17.api.11": {
+        "chat-type": "zalo",
+        "feature": "config-chat-distribution",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.17.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "config-chat-distribution",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.17.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "config-chat-distribution",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.17.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "config-chat-distribution",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.17.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "config-chat-distribution",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.17.whk.10": {
+        "chat-type": "zalo",
+        "feature": "config-chat-distribution",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.17.whk.11": {
+        "chat-type": "zalo",
+        "feature": "config-chat-distribution",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.18.api.10": {
+        "chat-type": "zalo",
+        "feature": "distribute-chat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.18.api.11": {
+        "chat-type": "zalo",
+        "feature": "distribute-chat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.18.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "distribute-chat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.18.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "distribute-chat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.18.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "distribute-chat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.18.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "distribute-chat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.18.whk.10": {
+        "chat-type": "zalo",
+        "feature": "distribute-chat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.18.whk.11": {
+        "chat-type": "zalo",
+        "feature": "distribute-chat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.19.api.10": {
+        "chat-type": "zalo",
+        "feature": "assign-chat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.19.api.11": {
+        "chat-type": "zalo",
+        "feature": "assign-chat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.19.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "assign-chat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.19.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "assign-chat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.19.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "assign-chat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.19.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "assign-chat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.19.whk.10": {
+        "chat-type": "zalo",
+        "feature": "assign-chat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.19.whk.11": {
+        "chat-type": "zalo",
+        "feature": "assign-chat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.20.api.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.20.api.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.20.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.20.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.20.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.20.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.20.whk.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.20.whk.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.21.api.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti-web",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.21.api.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti-web",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.21.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti-web",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.21.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti-web",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.21.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti-web",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.21.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti-web",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.21.whk.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti-web",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.21.whk.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti-web",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.22.api.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti-mobile",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.22.api.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti-mobile",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.22.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti-mobile",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.22.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti-mobile",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.22.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti-mobile",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.22.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti-mobile",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.22.whk.10": {
+        "chat-type": "zalo",
+        "feature": "send-noti-mobile",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.22.whk.11": {
+        "chat-type": "zalo",
+        "feature": "send-noti-mobile",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.23.api.10": {
+        "chat-type": "zalo",
+        "feature": "check-page-access-token",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.23.api.11": {
+        "chat-type": "zalo",
+        "feature": "check-page-access-token",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.23.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "check-page-access-token",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.23.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "check-page-access-token",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.23.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "check-page-access-token",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.23.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "check-page-access-token",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.23.whk.10": {
+        "chat-type": "zalo",
+        "feature": "check-page-access-token",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.23.whk.11": {
+        "chat-type": "zalo",
+        "feature": "check-page-access-token",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.24.api.10": {
+        "chat-type": "zalo",
+        "feature": "customer-journey",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.24.api.11": {
+        "chat-type": "zalo",
+        "feature": "customer-journey",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.24.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "customer-journey",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.24.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "customer-journey",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.24.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "customer-journey",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.24.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "customer-journey",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.24.whk.10": {
+        "chat-type": "zalo",
+        "feature": "customer-journey",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.24.whk.11": {
+        "chat-type": "zalo",
+        "feature": "customer-journey",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.25.api.10": {
+        "chat-type": "zalo",
+        "feature": "complete-room",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.25.api.11": {
+        "chat-type": "zalo",
+        "feature": "complete-room",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.25.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "complete-room",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.25.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "complete-room",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.25.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "complete-room",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.25.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "complete-room",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.25.whk.10": {
+        "chat-type": "zalo",
+        "feature": "complete-room",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.25.whk.11": {
+        "chat-type": "zalo",
+        "feature": "complete-room",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.26.api.10": {
+        "chat-type": "zalo",
+        "feature": "reopen-room",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.26.api.11": {
+        "chat-type": "zalo",
+        "feature": "reopen-room",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.26.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "reopen-room",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.26.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "reopen-room",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.26.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "reopen-room",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.26.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "reopen-room",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.26.whk.10": {
+        "chat-type": "zalo",
+        "feature": "reopen-room",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.26.whk.11": {
+        "chat-type": "zalo",
+        "feature": "reopen-room",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.27.api.10": {
+        "chat-type": "zalo",
+        "feature": "remind-room",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.27.api.11": {
+        "chat-type": "zalo",
+        "feature": "remind-room",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.27.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "remind-room",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.27.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "remind-room",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.27.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "remind-room",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.27.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "remind-room",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.27.whk.10": {
+        "chat-type": "zalo",
+        "feature": "remind-room",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.27.whk.11": {
+        "chat-type": "zalo",
+        "feature": "remind-room",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "zl.28.api.10": {
+        "chat-type": "zalo",
+        "feature": "customer-follow-page",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "zl.28.api.11": {
+        "chat-type": "zalo",
+        "feature": "customer-follow-page",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "zl.28.ctk.10": {
+        "chat-type": "zalo",
+        "feature": "customer-follow-page",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "zl.28.ctk.11": {
+        "chat-type": "zalo",
+        "feature": "customer-follow-page",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "zl.28.rmq.10": {
+        "chat-type": "zalo",
+        "feature": "customer-follow-page",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "zl.28.rmq.11": {
+        "chat-type": "zalo",
+        "feature": "customer-follow-page",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "zl.28.whk.10": {
+        "chat-type": "zalo",
+        "feature": "customer-follow-page",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "zl.28.whk.11": {
+        "chat-type": "zalo",
+        "feature": "customer-follow-page",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.10.api.10": {
+        "chat-type": "facebook",
+        "feature": "connect-chat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.10.api.11": {
+        "chat-type": "facebook",
+        "feature": "connect-chat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.10.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "connect-chat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.10.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "connect-chat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.10.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "connect-chat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.10.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "connect-chat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.10.whk.10": {
+        "chat-type": "facebook",
+        "feature": "connect-chat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.10.whk.11": {
+        "chat-type": "facebook",
+        "feature": "connect-chat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.11.api.10": {
+        "chat-type": "facebook",
+        "feature": "config-fchat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.11.api.11": {
+        "chat-type": "facebook",
+        "feature": "config-fchat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.11.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "config-fchat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.11.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "config-fchat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.11.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "config-fchat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.11.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "config-fchat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.11.whk.10": {
+        "chat-type": "facebook",
+        "feature": "config-fchat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.11.whk.11": {
+        "chat-type": "facebook",
+        "feature": "config-fchat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.12.api.10": {
+        "chat-type": "facebook",
+        "feature": "handle-webhook-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.12.api.11": {
+        "chat-type": "facebook",
+        "feature": "handle-webhook-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.12.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "handle-webhook-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.12.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "handle-webhook-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.12.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "handle-webhook-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.12.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "handle-webhook-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.12.whk.10": {
+        "chat-type": "facebook",
+        "feature": "handle-webhook-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.12.whk.11": {
+        "chat-type": "facebook",
+        "feature": "handle-webhook-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.13.api.10": {
+        "chat-type": "facebook",
+        "feature": "send-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.13.api.11": {
+        "chat-type": "facebook",
+        "feature": "send-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.13.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "send-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.13.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "send-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.13.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "send-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.13.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "send-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.13.whk.10": {
+        "chat-type": "facebook",
+        "feature": "send-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.13.whk.11": {
+        "chat-type": "facebook",
+        "feature": "send-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.14.api.10": {
+        "chat-type": "facebook",
+        "feature": "seen-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.14.api.11": {
+        "chat-type": "facebook",
+        "feature": "seen-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.14.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "seen-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.14.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "seen-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.14.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "seen-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.14.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "seen-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.14.whk.10": {
+        "chat-type": "facebook",
+        "feature": "seen-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.14.whk.11": {
+        "chat-type": "facebook",
+        "feature": "seen-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.15.api.10": {
+        "chat-type": "facebook",
+        "feature": "message-reaction",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.15.api.11": {
+        "chat-type": "facebook",
+        "feature": "message-reaction",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.15.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "message-reaction",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.15.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "message-reaction",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.15.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "message-reaction",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.15.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "message-reaction",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.15.whk.10": {
+        "chat-type": "facebook",
+        "feature": "message-reaction",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.15.whk.11": {
+        "chat-type": "facebook",
+        "feature": "message-reaction",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.16.api.10": {
+        "chat-type": "facebook",
+        "feature": "sync-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.16.api.11": {
+        "chat-type": "facebook",
+        "feature": "sync-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.16.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "sync-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.16.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "sync-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.16.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "sync-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.16.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "sync-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.16.whk.10": {
+        "chat-type": "facebook",
+        "feature": "sync-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.16.whk.11": {
+        "chat-type": "facebook",
+        "feature": "sync-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.17.api.10": {
+        "chat-type": "facebook",
+        "feature": "config-chat-distribution",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.17.api.11": {
+        "chat-type": "facebook",
+        "feature": "config-chat-distribution",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.17.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "config-chat-distribution",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.17.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "config-chat-distribution",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.17.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "config-chat-distribution",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.17.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "config-chat-distribution",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.17.whk.10": {
+        "chat-type": "facebook",
+        "feature": "config-chat-distribution",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.17.whk.11": {
+        "chat-type": "facebook",
+        "feature": "config-chat-distribution",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.18.api.10": {
+        "chat-type": "facebook",
+        "feature": "distribute-chat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.18.api.11": {
+        "chat-type": "facebook",
+        "feature": "distribute-chat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.18.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "distribute-chat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.18.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "distribute-chat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.18.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "distribute-chat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.18.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "distribute-chat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.18.whk.10": {
+        "chat-type": "facebook",
+        "feature": "distribute-chat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.18.whk.11": {
+        "chat-type": "facebook",
+        "feature": "distribute-chat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.19.api.10": {
+        "chat-type": "facebook",
+        "feature": "assign-chat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.19.api.11": {
+        "chat-type": "facebook",
+        "feature": "assign-chat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.19.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "assign-chat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.19.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "assign-chat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.19.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "assign-chat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.19.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "assign-chat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.19.whk.10": {
+        "chat-type": "facebook",
+        "feature": "assign-chat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.19.whk.11": {
+        "chat-type": "facebook",
+        "feature": "assign-chat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.20.api.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.20.api.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.20.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.20.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.20.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.20.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.20.whk.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.20.whk.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.21.api.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti-web",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.21.api.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti-web",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.21.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti-web",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.21.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti-web",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.21.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti-web",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.21.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti-web",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.21.whk.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti-web",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.21.whk.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti-web",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.22.api.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti-mobile",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.22.api.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti-mobile",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.22.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti-mobile",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.22.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti-mobile",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.22.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti-mobile",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.22.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti-mobile",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.22.whk.10": {
+        "chat-type": "facebook",
+        "feature": "send-noti-mobile",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.22.whk.11": {
+        "chat-type": "facebook",
+        "feature": "send-noti-mobile",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.23.api.10": {
+        "chat-type": "facebook",
+        "feature": "check-page-access-token",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.23.api.11": {
+        "chat-type": "facebook",
+        "feature": "check-page-access-token",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.23.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "check-page-access-token",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.23.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "check-page-access-token",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.23.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "check-page-access-token",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.23.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "check-page-access-token",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.23.whk.10": {
+        "chat-type": "facebook",
+        "feature": "check-page-access-token",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.23.whk.11": {
+        "chat-type": "facebook",
+        "feature": "check-page-access-token",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.24.api.10": {
+        "chat-type": "facebook",
+        "feature": "customer-journey",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.24.api.11": {
+        "chat-type": "facebook",
+        "feature": "customer-journey",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.24.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "customer-journey",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.24.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "customer-journey",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.24.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "customer-journey",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.24.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "customer-journey",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.24.whk.10": {
+        "chat-type": "facebook",
+        "feature": "customer-journey",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.24.whk.11": {
+        "chat-type": "facebook",
+        "feature": "customer-journey",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.25.api.10": {
+        "chat-type": "facebook",
+        "feature": "complete-room",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.25.api.11": {
+        "chat-type": "facebook",
+        "feature": "complete-room",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.25.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "complete-room",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.25.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "complete-room",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.25.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "complete-room",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.25.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "complete-room",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.25.whk.10": {
+        "chat-type": "facebook",
+        "feature": "complete-room",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.25.whk.11": {
+        "chat-type": "facebook",
+        "feature": "complete-room",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.26.api.10": {
+        "chat-type": "facebook",
+        "feature": "reopen-room",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.26.api.11": {
+        "chat-type": "facebook",
+        "feature": "reopen-room",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.26.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "reopen-room",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.26.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "reopen-room",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.26.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "reopen-room",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.26.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "reopen-room",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.26.whk.10": {
+        "chat-type": "facebook",
+        "feature": "reopen-room",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.26.whk.11": {
+        "chat-type": "facebook",
+        "feature": "reopen-room",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.27.api.10": {
+        "chat-type": "facebook",
+        "feature": "remind-room",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.27.api.11": {
+        "chat-type": "facebook",
+        "feature": "remind-room",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.27.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "remind-room",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.27.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "remind-room",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.27.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "remind-room",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.27.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "remind-room",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.27.whk.10": {
+        "chat-type": "facebook",
+        "feature": "remind-room",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.27.whk.11": {
+        "chat-type": "facebook",
+        "feature": "remind-room",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fb.28.api.10": {
+        "chat-type": "facebook",
+        "feature": "customer-follow-page",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fb.28.api.11": {
+        "chat-type": "facebook",
+        "feature": "customer-follow-page",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fb.28.ctk.10": {
+        "chat-type": "facebook",
+        "feature": "customer-follow-page",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fb.28.ctk.11": {
+        "chat-type": "facebook",
+        "feature": "customer-follow-page",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fb.28.rmq.10": {
+        "chat-type": "facebook",
+        "feature": "customer-follow-page",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fb.28.rmq.11": {
+        "chat-type": "facebook",
+        "feature": "customer-follow-page",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fb.28.whk.10": {
+        "chat-type": "facebook",
+        "feature": "customer-follow-page",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fb.28.whk.11": {
+        "chat-type": "facebook",
+        "feature": "customer-follow-page",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.10.api.10": {
+        "chat-type": "fchat",
+        "feature": "connect-chat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.10.api.11": {
+        "chat-type": "fchat",
+        "feature": "connect-chat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.10.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "connect-chat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.10.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "connect-chat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.10.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "connect-chat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.10.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "connect-chat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.10.whk.10": {
+        "chat-type": "fchat",
+        "feature": "connect-chat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.10.whk.11": {
+        "chat-type": "fchat",
+        "feature": "connect-chat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.11.api.10": {
+        "chat-type": "fchat",
+        "feature": "config-fchat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.11.api.11": {
+        "chat-type": "fchat",
+        "feature": "config-fchat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.11.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "config-fchat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.11.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "config-fchat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.11.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "config-fchat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.11.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "config-fchat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.11.whk.10": {
+        "chat-type": "fchat",
+        "feature": "config-fchat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.11.whk.11": {
+        "chat-type": "fchat",
+        "feature": "config-fchat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.12.api.10": {
+        "chat-type": "fchat",
+        "feature": "handle-webhook-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.12.api.11": {
+        "chat-type": "fchat",
+        "feature": "handle-webhook-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.12.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "handle-webhook-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.12.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "handle-webhook-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.12.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "handle-webhook-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.12.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "handle-webhook-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.12.whk.10": {
+        "chat-type": "fchat",
+        "feature": "handle-webhook-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.12.whk.11": {
+        "chat-type": "fchat",
+        "feature": "handle-webhook-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.13.api.10": {
+        "chat-type": "fchat",
+        "feature": "send-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.13.api.11": {
+        "chat-type": "fchat",
+        "feature": "send-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.13.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "send-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.13.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "send-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.13.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "send-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.13.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "send-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.13.whk.10": {
+        "chat-type": "fchat",
+        "feature": "send-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.13.whk.11": {
+        "chat-type": "fchat",
+        "feature": "send-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.14.api.10": {
+        "chat-type": "fchat",
+        "feature": "seen-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.14.api.11": {
+        "chat-type": "fchat",
+        "feature": "seen-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.14.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "seen-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.14.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "seen-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.14.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "seen-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.14.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "seen-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.14.whk.10": {
+        "chat-type": "fchat",
+        "feature": "seen-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.14.whk.11": {
+        "chat-type": "fchat",
+        "feature": "seen-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.15.api.10": {
+        "chat-type": "fchat",
+        "feature": "message-reaction",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.15.api.11": {
+        "chat-type": "fchat",
+        "feature": "message-reaction",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.15.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "message-reaction",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.15.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "message-reaction",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.15.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "message-reaction",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.15.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "message-reaction",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.15.whk.10": {
+        "chat-type": "fchat",
+        "feature": "message-reaction",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.15.whk.11": {
+        "chat-type": "fchat",
+        "feature": "message-reaction",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.16.api.10": {
+        "chat-type": "fchat",
+        "feature": "sync-message",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.16.api.11": {
+        "chat-type": "fchat",
+        "feature": "sync-message",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.16.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "sync-message",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.16.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "sync-message",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.16.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "sync-message",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.16.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "sync-message",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.16.whk.10": {
+        "chat-type": "fchat",
+        "feature": "sync-message",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.16.whk.11": {
+        "chat-type": "fchat",
+        "feature": "sync-message",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.17.api.10": {
+        "chat-type": "fchat",
+        "feature": "config-chat-distribution",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.17.api.11": {
+        "chat-type": "fchat",
+        "feature": "config-chat-distribution",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.17.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "config-chat-distribution",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.17.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "config-chat-distribution",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.17.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "config-chat-distribution",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.17.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "config-chat-distribution",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.17.whk.10": {
+        "chat-type": "fchat",
+        "feature": "config-chat-distribution",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.17.whk.11": {
+        "chat-type": "fchat",
+        "feature": "config-chat-distribution",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.18.api.10": {
+        "chat-type": "fchat",
+        "feature": "distribute-chat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.18.api.11": {
+        "chat-type": "fchat",
+        "feature": "distribute-chat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.18.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "distribute-chat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.18.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "distribute-chat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.18.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "distribute-chat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.18.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "distribute-chat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.18.whk.10": {
+        "chat-type": "fchat",
+        "feature": "distribute-chat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.18.whk.11": {
+        "chat-type": "fchat",
+        "feature": "distribute-chat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.19.api.10": {
+        "chat-type": "fchat",
+        "feature": "assign-chat",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.19.api.11": {
+        "chat-type": "fchat",
+        "feature": "assign-chat",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.19.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "assign-chat",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.19.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "assign-chat",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.19.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "assign-chat",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.19.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "assign-chat",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.19.whk.10": {
+        "chat-type": "fchat",
+        "feature": "assign-chat",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.19.whk.11": {
+        "chat-type": "fchat",
+        "feature": "assign-chat",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.20.api.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.20.api.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.20.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.20.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.20.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.20.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.20.whk.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.20.whk.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.21.api.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti-web",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.21.api.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti-web",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.21.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti-web",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.21.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti-web",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.21.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti-web",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.21.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti-web",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.21.whk.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti-web",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.21.whk.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti-web",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.22.api.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti-mobile",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.22.api.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti-mobile",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.22.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti-mobile",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.22.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti-mobile",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.22.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti-mobile",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.22.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti-mobile",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.22.whk.10": {
+        "chat-type": "fchat",
+        "feature": "send-noti-mobile",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.22.whk.11": {
+        "chat-type": "fchat",
+        "feature": "send-noti-mobile",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.23.api.10": {
+        "chat-type": "fchat",
+        "feature": "check-page-access-token",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.23.api.11": {
+        "chat-type": "fchat",
+        "feature": "check-page-access-token",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.23.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "check-page-access-token",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.23.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "check-page-access-token",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.23.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "check-page-access-token",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.23.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "check-page-access-token",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.23.whk.10": {
+        "chat-type": "fchat",
+        "feature": "check-page-access-token",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.23.whk.11": {
+        "chat-type": "fchat",
+        "feature": "check-page-access-token",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.24.api.10": {
+        "chat-type": "fchat",
+        "feature": "customer-journey",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.24.api.11": {
+        "chat-type": "fchat",
+        "feature": "customer-journey",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.24.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "customer-journey",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.24.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "customer-journey",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.24.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "customer-journey",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.24.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "customer-journey",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.24.whk.10": {
+        "chat-type": "fchat",
+        "feature": "customer-journey",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.24.whk.11": {
+        "chat-type": "fchat",
+        "feature": "customer-journey",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.25.api.10": {
+        "chat-type": "fchat",
+        "feature": "complete-room",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.25.api.11": {
+        "chat-type": "fchat",
+        "feature": "complete-room",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.25.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "complete-room",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.25.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "complete-room",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.25.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "complete-room",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.25.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "complete-room",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.25.whk.10": {
+        "chat-type": "fchat",
+        "feature": "complete-room",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.25.whk.11": {
+        "chat-type": "fchat",
+        "feature": "complete-room",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.26.api.10": {
+        "chat-type": "fchat",
+        "feature": "reopen-room",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.26.api.11": {
+        "chat-type": "fchat",
+        "feature": "reopen-room",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.26.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "reopen-room",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.26.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "reopen-room",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.26.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "reopen-room",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.26.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "reopen-room",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.26.whk.10": {
+        "chat-type": "fchat",
+        "feature": "reopen-room",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.26.whk.11": {
+        "chat-type": "fchat",
+        "feature": "reopen-room",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.27.api.10": {
+        "chat-type": "fchat",
+        "feature": "remind-room",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.27.api.11": {
+        "chat-type": "fchat",
+        "feature": "remind-room",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.27.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "remind-room",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.27.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "remind-room",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.27.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "remind-room",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.27.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "remind-room",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.27.whk.10": {
+        "chat-type": "fchat",
+        "feature": "remind-room",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.27.whk.11": {
+        "chat-type": "fchat",
+        "feature": "remind-room",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    },
+    "fc.28.api.10": {
+        "chat-type": "fchat",
+        "feature": "customer-follow-page",
+        "component": "api",
+        "action": "publish-rabbitmq"
+    },
+    "fc.28.api.11": {
+        "chat-type": "fchat",
+        "feature": "customer-follow-page",
+        "component": "api",
+        "action": "consume-rabbitmq"
+    },
+    "fc.28.ctk.10": {
+        "chat-type": "fchat",
+        "feature": "customer-follow-page",
+        "component": "celery-task",
+        "action": "publish-rabbitmq"
+    },
+    "fc.28.ctk.11": {
+        "chat-type": "fchat",
+        "feature": "customer-follow-page",
+        "component": "celery-task",
+        "action": "consume-rabbitmq"
+    },
+    "fc.28.rmq.10": {
+        "chat-type": "fchat",
+        "feature": "customer-follow-page",
+        "component": "rabbitmq-consumer",
+        "action": "publish-rabbitmq"
+    },
+    "fc.28.rmq.11": {
+        "chat-type": "fchat",
+        "feature": "customer-follow-page",
+        "component": "rabbitmq-consumer",
+        "action": "consume-rabbitmq"
+    },
+    "fc.28.whk.10": {
+        "chat-type": "fchat",
+        "feature": "customer-follow-page",
+        "component": "webhook",
+        "action": "publish-rabbitmq"
+    },
+    "fc.28.whk.11": {
+        "chat-type": "fchat",
+        "feature": "customer-follow-page",
+        "component": "webhook",
+        "action": "consume-rabbitmq"
+    }
+}

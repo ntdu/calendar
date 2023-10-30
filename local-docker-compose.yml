@@ -1,0 +1,32 @@
+version: "3.8"
+
+x-restart-policy: &restart_policy
+  restart: unless-stopped
+  env_file: './envs/local.env'
+
+services:
+  redis:
+    <<: *restart_policy
+    image: redis:7.0-alpine
+    container_name: Noti_Redis
+    restart: always
+    command: redis-server --appendonly yes
+    ports:
+      - 6379:6379
+    volumes:
+      - sop_local_redis_data:/data
+
+  postgres:
+    <<: *restart_policy
+    image: postgres:14
+    container_name: Noti_Postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: uspos
+    ports:
+      - 5432:5432
+    volumes:
+      - sop_local_postgres_data:/var/lib/postgresql/data:Z
+      - sop_local_postgres_data_backups:/backups:z

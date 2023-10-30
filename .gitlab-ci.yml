@@ -1,0 +1,182 @@
+### stage-build #########################################################################################
+
+# build dev
+build-noti-dev:
+  extends:
+    - .docker-dind
+  only:
+    refs:
+      - dev
+    changes:
+      - "*"
+      - "services/noti_service/**/*"
+      - "core/**/*"
+
+  script:
+    - cat $DEV_ENV_NOTI
+    - mv $DEV_ENV_NOTI services/noti_service/envs/.env
+
+    - docker buildx build --progress=plain --tag $CI_REGISTRY_URL/$NOTI_SERVICE-dev:$CI_COMMIT_SHA --tag $CI_REGISTRY_URL/$NOTI_SERVICE-dev:latest -f services/noti_service/Dockerfile --push .
+
+# build stg
+build-noti-stg:
+  extends:
+    - .docker-dind
+  only:
+    refs:
+      - stg
+    changes:
+      - "*"
+      - "services/noti_service/**/*"
+      - "core/**/*"
+
+  script:
+    - cat $STG_ENV_NOTI
+    - mv $STG_ENV_NOTI services/noti_service/envs/.env
+
+    - docker buildx build --progress=plain --tag $CI_REGISTRY_URL/$NOTI_SERVICE-stg:$CI_COMMIT_SHA --tag $CI_REGISTRY_URL/$NOTI_SERVICE-stg:latest -f services/noti_service/Dockerfile --push .
+
+# build-uat
+build-noti-uat:
+  extends:
+    - .docker-dind
+  only:
+    refs:
+      - uat
+    changes:
+      - "*"
+      - "services/noti_service/**/*"
+      - "core/**/*"
+
+  script:
+    - cat $UAT_ENV_NOTI
+    - mv $UAT_ENV_NOTI services/noti_service/envs/.env
+
+    - docker buildx build --progress=plain --tag $CI_REGISTRY_URL/$NOTI_SERVICE-uat:$CI_COMMIT_SHA --tag $CI_REGISTRY_URL/$NOTI_SERVICE-uat:latest -f services/noti_service/Dockerfile --push .
+
+# build-pro
+build-noti-pro:
+  extends:
+    - .docker-dind
+  only:
+    refs:
+      - pro
+    changes:
+      - "*"
+      - "services/noti_service/**/*"
+      - "core/**/*"
+
+  script:
+    - cat $PRO_ENV_NOTI
+    - mv $PRO_ENV_NOTI services/noti_service/envs/.env
+
+    - docker buildx build --tag $CI_REGISTRY_URL/$NOTI_SERVICE-pro:$CI_COMMIT_SHA --tag $CI_REGISTRY_URL/$NOTI_SERVICE-pro:latest -f services/noti_service/Dockerfile --push .
+### stage-test #########################################################################################
+# test-dev
+unittest-noti-dev:
+  image: alpine:latest
+  stage: test
+
+  only:
+    refs:
+      - dev
+    changes:
+      - "*"
+      - "services/noti_service/**/*"
+      - "core/**/*"
+  allow_failure: true
+  needs: ["build-noti-dev"]
+  script:
+    - chmod og= $DEV_ID_RSA
+    - apk update && apk add openssh-client
+    - ssh  -i $DEV_ID_RSA -o StrictHostKeyChecking=no $DEV_SERVER_USER@$DEV_SERVER_IP "docker run -i --rm $CI_REGISTRY_URL/$NOTI_SERVICE-dev:$CI_COMMIT_SHA /bin/bash -c 'poetry run pytest'"
+
+# test stag
+unittest-noti-stg:
+  image: alpine:latest
+  stage: test
+  only:
+    refs:
+      - stg
+    changes:
+      - "*"
+      - "services/noti_service/**/*"
+      - "core/**/*"
+  allow_failure: true
+  needs: ["build-noti-stg"]
+  script:
+    - chmod og= $STG_ID_RSA
+    - apk update && apk add openssh-client
+    - ssh  -i $STG_ID_RSA -o StrictHostKeyChecking=no $STG_SERVER_USER@$STG_SERVER_IP "docker run -i --rm $CI_REGISTRY_URL/$NOTI_SERVICE-stg:$CI_COMMIT_SHA /bin/bash -c 'poetry run pytest'"
+
+# test uat
+unittest-noti-uat:
+  image: alpine:latest
+  stage: test
+  only:
+    refs:
+      - uat
+    changes:
+      - "*"
+      - "services/noti_service/**/*"
+      - "core/**/*"
+  allow_failure: true
+  needs: ["build-noti-uat"]
+  script:
+    - chmod og= $UAT_ID_RSA
+    - apk update && apk add openssh-client
+    - ssh  -i $UAT_ID_RSA -o StrictHostKeyChecking=no $UAT_SERVER_USER@$UAT_SERVER_IP "docker run -i --rm $CI_REGISTRY_URL/$NOTI_SERVICE-uat:$CI_COMMIT_SHA /bin/bash -c 'poetry run pytest'"
+
+### stage deploy #########################################################################################
+# deploy dev
+deploy-noti-dev:
+  image: alpine:latest
+  stage: deploy
+  only:
+    refs:
+      - dev
+    changes:
+      - "*"
+      - "services/noti_service/**/*"
+      - "core/**/*"
+
+  needs: ["unittest-noti-dev"]
+  script:
+    - chmod og= $DEV_ID_RSA
+    - apk update && apk add openssh-client
+    - ssh -i $DEV_ID_RSA -o StrictHostKeyChecking=no $DEV_SERVER_USER@$DEV_SERVER_IP "make -s sopdev-noti"
+
+# deploy stag
+deploy-noti-stg:
+  image: alpine:latest
+  stage: deploy
+  only:
+    refs:
+      - stg
+    changes:
+      - "*"
+      - "services/noti_service/**/*"
+      - "core/**/*"
+
+  needs: ["unittest-noti-stg"]
+  script:
+    - chmod og= $STG_ID_RSA
+    - apk update && apk add openssh-client
+    - ssh  -i $STG_ID_RSA -o StrictHostKeyChecking=no $STG_SERVER_USER@$STG_SERVER_IP "make -s sopstg-noti"
+# deploy uat
+deploy-noti-uat:
+  image: alpine:latest
+  stage: deploy
+  only:
+    refs:
+      - uat
+    changes:
+      - "*"
+      - "services/noti_service/**/*"
+      - "core/**/*"
+
+  needs: ["unittest-noti-uat"]
+  script:
+    - chmod og= $UAT_ID_RSA
+    - apk update && apk add openssh-client
+    - ssh  -i $UAT_ID_RSA -o StrictHostKeyChecking=no $UAT_SERVER_USER@$UAT_SERVER_IP "make -s sopuat-noti"

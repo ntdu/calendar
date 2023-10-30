@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+
+
+ZALO_DOMAIN_VERIFICATION_CODE = "PuUo1PEnCorhaQ9sdE47G6RBXbUAj5GBCpW"
+
+ZALO_EVENT_FOLLOW = 'follow'
+ZALO_EVENT_UNFOLLOW = 'unfollow'
+ZALO_EVENT_OA_SEND_TEXT = 'oa_send_text'
+ZALO_EVENT_USER_SEEN_MESSAGE = 'user_seen_message'
+ZALO_EVENT_USER_REACTED_MESSAGE = 'user_reacted_message'
+
+
+ZALO_CONTACT_FIELDS = {"offset": 0, "count": 5}
+
+
+ZALO_CHAT_DISTRIBUTION_ONLY_ME = "only_me"
+ZALO_CHAT_DISTRIBUTION_RANDOM = "random"
+ZALO_CHAT_DISTRIBUTION_ROTATION = "rotation"
+
+
+# RESPONSE API from ZALOOA
+ZALO_ERROR_REFRESH_TOKEN_INVALID = "Refresh token is invalid"

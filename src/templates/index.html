@@ -1,0 +1,73 @@
+adfadfdasfaf
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-messaging.js"></script>
+
+    <script>
+        // Initialize Firebase
+        const firebaseConfig = {
+          apiKey: "AIzaSyC-6bZPkSILcGberTGlqOAX7tiow8K6Mxw",
+          authDomain: "sopdev-86855.firebaseapp.com",
+          databaseURL: "https://sopdev-86855-default-rtdb.asia-southeast1.firebasedatabase.app",
+          projectId: "sopdev-86855",
+          storageBucket: "sopdev-86855.appspot.com",
+          messagingSenderId: "280112674639",
+          appId: "1:280112674639:web:bfce500fbf7a60f28db73a",
+          measurementId: "G-DKZSNDP153"
+        };
+        firebase.initializeApp(firebaseConfig);
+
+        // Retrieve the messaging object
+        const messaging = firebase.messaging();
+
+        messaging.getToken({ vapidKey: 'BF-J-QC_Y47DNKvSe-g8sOR1uvVwBxokPN3bhWCBxfQ0v-pyI4hpvHALpY3QL-pGZVxe6gIeZ1hpB3_9iys1SIk'}).then((currentToken) => {
+        if (currentToken) {
+            console.log(currentToken);
+            // Send the token to your server and update the UI if necessary
+            // ...
+        } else {
+            // Show permission request UI
+            console.log('No registration token available. Request permission to generate one.');
+            // ...
+        }
+        }).catch((err) => {
+        console.log('An error occurred while retrieving token. ', err);
+        // ...
+        });
+    </script>
+
+    <script>
+        // Request permission
+        messaging
+          .requestPermission()
+          .then(function () {
+            console.log("Notification permission granted.");
+            // You can now subscribe to the messaging service worker here
+          })
+          .catch(function (error) {
+            console.log("Unable to get permission to notify.", error);
+          });
+
+        messaging.onMessage(function (payload) {
+            console.log("Received message:", payload);
+            // console.log("Received message:", payload.data.link);
+
+            // Display notification
+            new Notification(payload.notification.title, {
+                body: payload.notification.body,
+                icon: payload.notification.image
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
